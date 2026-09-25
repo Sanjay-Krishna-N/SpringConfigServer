@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SpringConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+    <module name="SpringConfigServer" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="org.cloud.config.springconfigserver.SpringConfigServerApplication" />
+    <option name="VM_PARAMETERS" value="-Dapp.name=SpringConfigServer -Dserver.port=8099" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.cloud.config.springconfigserver.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
